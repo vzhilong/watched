@@ -61,6 +61,11 @@ class HiApplication : Application() {
 }
 ```
 
-![watched sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/watched.png "watched sample") {:width="640px"}
+Usually we monitor our process's memory usage by Profiler, like this:
 
-![profiler sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/profiler.jpg "profiler sample") {:width="640px"}
+![profiler sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/profiler.jpg "profiler sample")
+
+Now we can get the same result on the phone, and set the result refresh interval time:
+
+![watched sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/watched.png "watched sample")
+![dialog config](https://raw.githubusercontent.com/vzhilong/watched/master/art/dialog.jpg "dialog config")
