@@ -1,12 +1,27 @@
 ### 1, How to use it
 
-In your `build.gradle`:
+In root `build.gradle`:
+
+```gradle
+allprojects {
+    repositories {
+        google()
+        jcenter()
+
+        maven {
+            url "https://vincenthwang.bintray.com/watched"
+        }
+    }
+}
+```
+
+In your app `build.gradle`:
 
 ```gradle
  dependencies {
-   debugImplementation "com.github.brianPlummer:tinydancer:0.1.2"
-   releaseImplementation "com.github.brianPlummer:tinydancer-noop:0.1.2"
-   testImplementation "com.github.brianPlummer:tinydancer-noop:0.1.2"
+    debugImplementation 'com.vincent.watched:watched:0.1.0'
+    releaseImplementation 'com.vincent.watched:watched_noop:0.1.0'
+    testImplementation 'com.vincent.watched:watched_noop:0.1.0'
  }
 ```
 
