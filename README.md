@@ -64,11 +64,11 @@ class HiApplication : Application() {
 
 ### 2, About watched
 
-Usually we monitor our process's memory usage by Profiler, like this:
+Usually we monitor our process's memory usage(java heap, native heap, graphics, stack, code and others) by Profiler, like this:
 
 ![profiler sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/profiler.jpg "profiler sample")
 
-Now we can get the same result on the phone, and set the result refresh interval time:
+Now we can get the same result on the phone(java heap, native heap, graphics, stack, code, but others not include):
 
 ![watched sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/watched.png "watched sample")
 ![dialog config](https://raw.githubusercontent.com/vzhilong/watched/master/art/dialog.jpg "dialog config")
