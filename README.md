@@ -1,4 +1,4 @@
-### How to use it
+### 1, How to use it
 
 In your `build.gradle`:
 
@@ -62,7 +62,7 @@ class HiApplication : Application() {
 }
 ```
 
-### About watched
+### 2, About watched
 
 Usually we monitor our process's memory usage by Profiler, like this:
 
