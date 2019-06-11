@@ -61,6 +61,6 @@ class HiApplication : Application() {
 }
 ```
 
-![watched sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/watched.png =480x)
+![watched sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/watched.png "watched sample") {:width="640px"}
 
-![profiler sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/profiler.jpg =640x)
+![profiler sample](https://raw.githubusercontent.com/vzhilong/watched/master/art/profiler.jpg "profiler sample") {:width="640px"}
