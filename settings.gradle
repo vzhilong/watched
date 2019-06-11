@@ -1,0 +1,1 @@
+include ':app', ':watched', ':watched_noop'
