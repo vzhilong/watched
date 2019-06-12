@@ -2,8 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
-apply plugin: 'com.novoda.bintray-release'
-
 android {
     compileSdkVersion COMPILE_SDK_VERSION as int
 
@@ -38,18 +36,4 @@ dependencies {
 }
 repositories {
     mavenCentral()
-}
-
-publish {
-    def groupProjectID = 'com.vincenthwang.watched'
-    def artifactProjectID = 'watched_noop'
-    def publishVersionID = VERSION_NAME
-
-    userOrg = 'vincenthwang'
-    repoName = 'watched'
-    groupId = groupProjectID
-    artifactId = artifactProjectID
-    publishVersion = publishVersionID
-    desc = 'A tool that monitor the memory usage of your processes, just like the profiler of Android Studio.'
-    website = 'https://github.com/vzhilong/watched'
 }
