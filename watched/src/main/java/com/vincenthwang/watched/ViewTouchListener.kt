@@ -1,4 +1,4 @@
-package com.vincent.watched
+package com.vincenthwang.watched
 
 import android.view.GestureDetector
 import android.view.MotionEvent

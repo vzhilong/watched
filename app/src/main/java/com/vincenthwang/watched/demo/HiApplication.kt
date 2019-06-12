@@ -1,8 +1,8 @@
-package com.vincent.watched.demo
+package com.vincenthwang.watched.demo
 
 import android.app.Application
 import android.os.Process
-import com.vincent.watched.Watched
+import com.vincenthwang.watched.Watched
 import java.io.BufferedReader
 import java.io.FileInputStream
 import java.io.IOException
@@ -13,7 +13,7 @@ class HiApplication : Application() {
         super.onCreate()
 
         if (getCurProcessName() == packageName) {
-            Watched.init(this, arrayOf("com.vincent.watched.demo:service", "com.vincent.watched.demo"), interval = 500L)
+            Watched.init(this, arrayOf("com.vincenthwang.watched.demo:service", "com.vincenthwang.watched.demo"), interval = 500L)
         }
     }
 

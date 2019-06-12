@@ -44,7 +44,7 @@ repositories {
 }
 
 publish {
-    def groupProjectID = 'com.vincent.watched'
+    def groupProjectID = 'com.vincenthwang.watched'
     def artifactProjectID = 'watched'
     def publishVersionID = VERSION_NAME
 

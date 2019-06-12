@@ -1,4 +1,4 @@
-package com.vincent.watched
+package com.vincenthwang.watched
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -227,8 +227,13 @@ object Watched {
         }
 
         // create gesture detector to listen for double taps
-        val gestureDetector = GestureDetector(application, simpleOnGestureListener)
-        meterView = (LayoutInflater.from(application).inflate(R.layout.meter_view, null) as TextView).apply {
+        val gestureDetector = GestureDetector(
+            application,
+            simpleOnGestureListener
+        )
+        meterView = (LayoutInflater.from(application).inflate(
+            R.layout.meter_view, null
+        ) as TextView).apply {
             // attach touch listener
             setOnTouchListener(
                 ViewTouchListener(

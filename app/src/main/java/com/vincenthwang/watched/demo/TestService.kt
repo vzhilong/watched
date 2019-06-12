@@ -1,4 +1,4 @@
-package com.vincent.watched.demo
+package com.vincenthwang.watched.demo
 
 import android.app.Service
 import android.content.Intent

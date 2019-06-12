@@ -1,4 +1,4 @@
-package com.vincent.watched.demo
+package com.vincenthwang.watched.demo
 
 import android.content.ComponentName
 import android.content.Context
@@ -7,7 +7,8 @@ import android.content.ServiceConnection
 import android.os.Bundle
 import android.os.IBinder
 import androidx.appcompat.app.AppCompatActivity
-import com.vincent.watched.Watched
+import com.vincenthwang.watched.Watched
+import com.vincenthwang.watched.demo.R
 
 class MainActivity : AppCompatActivity() {
 
