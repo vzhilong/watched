@@ -31,8 +31,12 @@ android {
 }
 
 dependencies {
-    debugImplementation project(":watched")
-    releaseImplementation project(":watched_noop")
+    debugImplementation 'com.github.vzhilong.watched:watched:0.1.0'
+    releaseImplementation 'com.github.vzhilong.watched:watched_noop:0.1.0'
+    testImplementation 'com.github.vzhilong.watched:watched_noop:0.1.0'
+
+    //debugImplementation project(":watched")
+    //releaseImplementation project(":watched_noop")
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$KOTLIN_VERSION"

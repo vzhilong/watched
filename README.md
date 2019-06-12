@@ -8,9 +8,7 @@ allprojects {
         google()
         jcenter()
 
-        maven {
-            url "https://vincenthwang.bintray.com/watched"
-        }
+        maven { url 'https://jitpack.io' }
     }
 }
 ```
@@ -19,9 +17,9 @@ In your app `build.gradle`:
 
 ```gradle
  dependencies {
-    debugImplementation 'com.vincent.watched:watched:0.1.0'
-    releaseImplementation 'com.vincent.watched:watched_noop:0.1.0'
-    testImplementation 'com.vincent.watched:watched_noop:0.1.0'
+    debugImplementation 'com.github.vzhilong.watched:watched:0.1.0'
+    releaseImplementation 'com.github.vzhilong.watched:watched_noop:0.1.0'
+    testImplementation 'com.github.vzhilong.watched:watched_noop:0.1.0'
  }
 ```
 
