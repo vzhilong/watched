@@ -254,10 +254,11 @@ object Watched {
     }
 
     fun hide() {
-        // add view to the window
-        application.windowManager.removeView(meterView)
-        timerHandler.removeMessages(0)
-        meterView = null
+        if (meterView != null) {
+            application.windowManager.removeView(meterView)
+            timerHandler.removeMessages(0)
+            meterView = null
+        }
     }
 
 
