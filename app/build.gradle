@@ -31,9 +31,9 @@ android {
 }
 
 dependencies {
-    debugImplementation 'com.github.vzhilong.watched:watched:0.1.0'
-    releaseImplementation 'com.github.vzhilong.watched:watched_noop:0.1.0'
-    testImplementation 'com.github.vzhilong.watched:watched_noop:0.1.0'
+    debugImplementation 'com.github.vzhilong.watched:watched:0.1.2'
+    releaseImplementation 'com.github.vzhilong.watched:watched_noop:0.1.2'
+    testImplementation 'com.github.vzhilong.watched:watched_noop:0.1.2'
 
     //debugImplementation project(":watched")
     //releaseImplementation project(":watched_noop")
